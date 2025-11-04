@@ -8,7 +8,7 @@ theory**, named after mathematicians [Ernst Zermelo](Ernst_Zermelo
 Fraenkel"), is an [axiomatic system](axiomatic_system "axiomatic
 system") that was proposed in the early twentieth century in order to
 formulate a [theory of sets](theory_of_sets "theory of sets") free of
-paradoxes such as [Russell\'s paradox](Russell's_paradox "Russell's
+paradoxes such as [Russell's paradox](Russell's_paradox "Russell's
 paradox"). Today, Zermelo--Fraenkel set theory, with the historically
 controversial [axiom of choice](axiom_of_choice "axiom of choice")
 (AC) included, is the standard form of [axiomatic set
@@ -16,7 +16,7 @@ theory](axiomatic_set_theory "axiomatic set theory") and as such is
 the most common [foundation of mathematics](foundations_of_mathematics
 "foundation of mathematics").  Zermelo--Fraenkel set theory with the
 axiom of choice included is abbreviated **ZFC**, where C stands for
-\"choice\", and **ZF** refers to the axioms of Zermelo--Fraenkel set
+"choice", and **ZF** refers to the axioms of Zermelo--Fraenkel set
 theory with the axiom of choice excluded.
 
 Informally, Zermelo--Fraenkel set theory is intended to formalize a
@@ -36,7 +36,7 @@ be sets) can only be treated indirectly. Specifically,
 Zermelo--Fraenkel set theory does not allow for the existence of a
 [universal set](universal_set "universal set") (a set containing all
 sets) nor for [unrestricted comprehension](unrestricted_comprehension
-"unrestricted comprehension"), thereby avoiding Russell\'s
+"unrestricted comprehension"), thereby avoiding Russell's
 paradox. [Von Neumann--Bernays--Gödel set
 theory](Von_Neumann-BernaysGödel_set_theory "Von
 NeumannBernaysGödel set theory") (NBG) is a commonly used
@@ -51,8 +51,8 @@ pairing](axiom_of_pairing "axiom of pairing") implies that given any
 two sets $a$ and $b$ there is a new set $\{a,b\}$ containing exactly
 $a$ and $b$. (At least in Kunen's formulation, the exact statement of
 the axiom is that there is a set containing both $a$ and $b$.  To
-conclude that a set containing ''exactly'' $a$ and $b$ exists requires
-an application of the [[axiom schema of separation]].)  Other axioms
+conclude that a set containing "exactly" $a$ and $b$ exists requires
+an application of the axiom schema of separation.)  Other axioms
 describe properties of set membership. A goal of the axioms is that
 each axiom should be true if interpreted as a statement about the
 collection of all sets in the [von Neumann
@@ -67,7 +67,7 @@ independence") of the axiom of choice from the remaining
 Zermelo-Fraenkel axioms and of the [continuum
 hypothesis](continuum_hypothesis "continuum hypothesis") from ZFC. The
 [consistency](consistency "consistency") of a theory such as ZFC
-cannot be proved within the theory itself, as shown by [Gödel\'s
+cannot be proved within the theory itself, as shown by [Gödel's
 second incompleteness theorem](Gödel's_second_incompleteness_theorem
 "Gödel's second incompleteness theorem").
 
@@ -78,7 +78,7 @@ initiated by [Georg Cantor](Georg_Cantor "Georg Cantor") and [Richard
 Dedekind](Richard_Dedekind "Richard Dedekind") in the 1870s. However,
 the discovery of [paradoxes](Paradoxes_of_set_theory "paradoxes") in
 [naive set theory](naive_set_theory "naive set theory"), such as
-[Russell\'s paradox](Russell's_paradox "Russell's paradox"), led to
+[Russell's paradox](Russell's_paradox "Russell's paradox"), led to
 the desire for a more rigorous form of set theory that was free of
 these paradoxes.
 
@@ -96,11 +96,11 @@ notably the cardinal number [aleph-omega
 $\{Z_{0},\mathcal{P}(Z_{0}),\mathcal{P}( \mathcal{P}(Z_{0})
 ),\mathcal{P}( \mathcal{P}( \mathcal{P}(Z_{0}) ) ),...\},$ where
 $Z_{0}$ is any infinite set and $\mathcal{P}$ is the [power
-set](power_set "power set") operation. Moreover, one of Zermelo\'s
-axioms invoked a concept, that of a \"definite\" property, whose
+set](power_set "power set") operation. Moreover, one of Zermelo's
+axioms invoked a concept, that of a "definite" property, whose
 operational meaning was not clear. In 1922, Fraenkel and [Thoralf
 Skolem](Thoralf_Skolem "Thoralf Skolem") independently proposed
-operationalizing a \"definite\" property as one that could be
+operationalizing a "definite" property as one that could be
 formulated as a well-formed formula in a [first-order
 logic](first-order_logic "first-order logic") whose [atomic
 formulas](atomic_formula "atomic formula") were limited to set
@@ -135,7 +135,7 @@ completeness](functional_completeness "functional completeness").
 This section attempts to strike a balance between simplicity and
 intuitiveness.
 
-The language\'s alphabet consists of:
+The language's alphabet consists of:
 
 - A countably infinite number of variables used for representing sets
 - The logical connectives $\lnot$, $\land$, $\lor$
@@ -189,7 +189,7 @@ the [axiom of choice](axiom_of_choice "axiom of choice") for axiom 9.
 
 All formulations of ZFC imply that at least one set exists. Kunen
 includes an axiom that directly asserts the existence of a set,
-although he notes that he does so only \"for emphasis\". Its omission
+although he notes that he does so only "for emphasis". Its omission
 here can be justified in two ways. First, in the standard semantics of
 first-order logic in which ZFC is typically formalized, the [domain of
 discourse](domain_of_discourse "domain of discourse") must be
@@ -220,7 +220,7 @@ The converse of this axiom follows from the substitution property of
 [equality](equality_(mathematics) "equality"). ZFC is constructed in
 first-order logic. Some formulations of first-order logic include
 identity; others do not. If the variety of first-order logic in which
-one is constructing set theory does not include equality \"$=$\",
+one is constructing set theory does not include equality "$=$",
 $x=y$ may be defined as an abbreviation for the following formula:
 $\forall z [z \in x \Leftrightarrow z \in y] \land \forall w [x \in w
 \Leftrightarrow y \in w].$
@@ -284,20 +284,20 @@ form:
 
 $$\{x : \varphi(x)\}.$$
 
-This restriction is necessary to avoid [Russell\'s
+This restriction is necessary to avoid [Russell's
 paradox](Russell's_paradox "Russell's paradox") (let $y=\{x:x\notin
 x\}$ then $y \in y \Leftrightarrow y \notin y$) and its variants that
 accompany naive set theory with [unrestricted
 comprehension](unrestricted_comprehension "unrestricted
 comprehension") (since under this restriction $y$ only refers to sets
-***within* $z$** that don\'t belong to themselves, and $y \in z$ has
+***within* $z$** that don't belong to themselves, and $y \in z$ has
 ***not*** been established, even though $y \subseteq z$ is the case,
-so $y$ stands in a separate position from which it can\'t refer to or
+so $y$ stands in a separate position from which it can't refer to or
 comprehend itself; therefore, in a certain sense, this axiom schema is
 saying that in order to build a $y$ on the basis of a formula
 $\varphi(x)$, we need to previously restrict the sets $y$ will regard
-within a set $z$ that leaves $y$ outside so $y$ can\'t refer to
-itself; or, in other words, sets shouldn\'t refer to themselves).
+within a set $z$ that leaves $y$ outside so $y$ can't refer to
+itself; or, in other words, sets shouldn't refer to themselves).
 
 In some other axiomatizations of ZF, this axiom is redundant in that
 it follows from the [axiom schema of
@@ -318,7 +318,7 @@ the empty set") is implied by the nine axioms presented here. The
 axiom of extensionality implies the empty set is unique (does not
 depend on $w$). It is common to make a [definitional
 extension](definitional_extension "definitional extension") that adds
-the symbol \"$\varnothing$\" to the language of ZFC.
+the symbol "$\varnothing$" to the language of ZFC.
 
 ### Axiom of pairing
 
@@ -346,7 +346,7 @@ $$
 [(x \in Y \land Y \in \mathcal{F}) \Rightarrow x \in A].
 $$
 
-Although this formula doesn\'t directly assert the existence of $\cup
+Although this formula doesn't directly assert the existence of $\cup
 \mathcal{F}$, the set $\cup \mathcal{F}$ can be constructed from $A$
 in the above using the axiom schema of specification:
 
@@ -450,7 +450,7 @@ $$\mathcal{P}(x) = \{ z \in y: z \subseteq x \}.$$
 
 Axioms *1--8* define ZF. Alternative forms of these axioms are often
 encountered, some of which are listed in
-[Jech2003](Jech.Thomas-2003 "Set Theory"). Some ZF axiomatizations include
+`{Jech2003}`. Some ZF axiomatizations include
 an axiom asserting that the [empty set exists](axiom_of_empty_set
 "empty set exists"). The axioms of pairing, union, replacement, and
 power set are often stated so that the members of the set $x$ whose
@@ -476,10 +476,10 @@ $$\forall X \exists R ( R \;\mbox{well-orders}\; X).$$
 Given axioms *1* -- *8*, many statements are provably equivalent to
 axiom *9*. The most common of these goes as follows. Let $X$ be a set
 whose members are all nonempty. Then there exists a function $f$ from
-$X$ to the union of the members of $X$, called a \"[choice
-function](choice_function "choice function")\", such that for all
+$X$ to the union of the members of $X$, called a "[choice
+function](choice_function "choice function")", such that for all
 $Y\in X$ one has $f(Y)\in Y$. A third version of the axiom, also
-equivalent, is [Zorn\'s lemma](Zorn's_lemma "Zorn's lemma").
+equivalent, is [Zorn's lemma](Zorn's_lemma "Zorn's lemma").
 
 Since the existence of a choice function when $X$ is a [finite
 set](finite_set "finite set") is easily proved from axioms *1--8*, AC
@@ -487,7 +487,7 @@ only matters for certain [infinite sets](infinite_set "infinite
 set"). AC is characterized as
 [nonconstructive](constructive_mathematics "nonconstructive") because
 it asserts the existence of a choice function but says nothing about
-how this choice function is to be \"constructed\".
+how this choice function is to be "constructed".
 
 ## Motivation via the cumulative hierarchy
 
@@ -529,15 +529,15 @@ theories such as [New Foundations](New_Foundations "New Foundations").
 It is possible to change the definition of $V$ so that at each stage,
 instead of adding all the subsets of the union of the previous stages,
 subsets are only added if they are definable in a certain sense. This
-results in a more \"narrow\" hierarchy, which gives the [constructible
+results in a more "narrow" hierarchy, which gives the [constructible
 universe](constructible_universe "constructible universe") $L$, which
 also satisfies all the axioms of ZFC, including the axiom of
 choice. It is independent from the ZFC axioms whether $V=L$.
 Although the structure of $L$ is more regular and well behaved than
 that of $V$, few mathematicians argue that $V=L$ should be added
-to ZFC as an additional \"[axiom of
+to ZFC as an additional "[axiom of
 constructibility](axiom_of_constructibility "axiom of
-constructibility")\".
+constructibility")".
 
 ## Metamathematics
 
@@ -552,7 +552,7 @@ construct $y\in \{ x | \text{F}x \}$ is simply defined as $\text{F}y$. This
 provides a simple notation for classes that can contain sets but need
 not themselves be sets, while not committing to the ontology of
 classes (because the notation can be syntactically converted to one
-that only uses sets). Quine\'s approach built on the earlier approach
+that only uses sets). Quine's approach built on the earlier approach
 of `{Bernays-Fraenkel1958}`. Virtual classes are also used in
 `{Levy2002}`, `{Takeuti-Zaring1982}`, and in the [Metamath](Metamath
 "Metamath") implementation of ZFC.
@@ -575,7 +575,7 @@ proved in the other.
 
 ### Consistency
 
-[Gödel\'s second incompleteness
+[Gödel's second incompleteness
 theorem](Gödel's_second_incompleteness_theorem "Gödel's second
 incompleteness theorem") says that a recursively axiomatizable system
 that can interpret [Robinson arithmetic](Robinson_arithmetic "Robinson
@@ -594,9 +594,9 @@ unlikely that ZFC harbors an unsuspected contradiction; it is widely
 believed that if ZFC were inconsistent, that fact would have been
 uncovered by now. This much is certain -- ZFC is
 immune to the classic paradoxes of [naive set theory](naive_set_theory
-"naive set theory"): [Russell\'s paradox](Russell's_paradox "Russell's
+"naive set theory"): [Russell's paradox](Russell's_paradox "Russell's
 paradox"), the [Burali-Forti paradox](Burali-Forti_paradox
-"Burali-Forti paradox"), and [Cantor\'s paradox](Cantor's_paradox
+"Burali-Forti paradox"), and [Cantor's paradox](Cantor's_paradox
 "Cantor's paradox").
 
 `{Abian-LaMacchia1978}` studied a [subtheory](subtheory "subtheory")
@@ -614,7 +614,7 @@ of the other ZFC axioms.
 If consistent, ZFC cannot prove the existence of the [inaccessible
 cardinals](inaccessible_cardinal "inaccessible cardinal") that
 [category theory](category_theory "category theory") requires. Huge
-sets of this nature are possible if ZF is augmented with [Tarski\'s
+sets of this nature are possible if ZF is augmented with [Tarski's
 axiom](TarskiGrothendieck_set_theory "Tarski's axiom"). Assuming
 that axiom turns the axioms of [infinity](axiom_of_infinity
 "infinity"), [power set](axiom_of_power_set "power set"), and
@@ -645,7 +645,7 @@ Forcing proves that the following statements are independent of ZFC:
   of constructibility (V=L)") (which is also not a ZFC axiom)
 - [Continuum hypothesis](Continuum_hypothesis "Continuum hypothesis")
 - [Diamond principle](Diamondsuit "Diamond principle")
-- [Martin\'s axiom](Martin's_axiom "Martin's axiom") (which is not a
+- [Martin's axiom](Martin's_axiom "Martin's axiom") (which is not a
   ZFC axiom)
 - [Suslin hypothesis](Suslin's_problem "Suslin hypothesis")
 
@@ -656,12 +656,12 @@ Remarks:
   become a model of ZFC + V=L.
 - The diamond principle implies the continuum hypothesis and the
   negation of the Suslin hypothesis.
-- Martin\'s axiom plus the negation of the continuum hypothesis implies
+- Martin's axiom plus the negation of the continuum hypothesis implies
   the Suslin hypothesis.
 - The [constructible universe](constructible_universe "constructible
   universe") satisfies the [generalized continuum
   hypothesis](Generalized_Continuum_Hypothesis "generalized continuum
-  hypothesis"), the diamond principle, Martin\'s axiom and the Kurepa
+  hypothesis"), the diamond principle, Martin's axiom and the Kurepa
   hypothesis.
 - The failure of the [Kurepa hypothesis](Kurepa_tree "Kurepa
   hypothesis") is equiconsistent with the existence of a [strongly
@@ -681,10 +681,10 @@ use forcing to create a model which contains a suitable submodel,
 namely one satisfying ZF but not C.
 
 Another method of proving independence results, one owing nothing to
-forcing, is based on Gödel\'s second incompleteness theorem. This
+forcing, is based on Gödel's second incompleteness theorem. This
 approach employs the statement whose independence is being examined,
 to prove the existence of a set model of ZFC, in which case Con(ZFC)
-is true. Since ZFC satisfies the conditions of Gödel\'s second
+is true. Since ZFC satisfies the conditions of Gödel's second
 theorem, the consistency of ZFC is unprovable in ZFC (provided that
 ZFC is, in fact, consistent). Hence no statement allowing such a proof
 can be proved in ZFC. This method can prove that the existence of
@@ -696,17 +696,17 @@ free of contradiction.
 
 The project to unify set theorists behind additional axioms to resolve
 the continuum hypothesis or other meta-mathematical ambiguities is
-sometimes known as \"Gödel\'s program\". Mathematicians currently
-debate which axioms are the most plausible or \"self-evident\", which
+sometimes known as "Gödel's program". Mathematicians currently
+debate which axioms are the most plausible or "self-evident", which
 axioms are the most useful in various domains, and about to what
 degree usefulness should be traded off with plausibility; some
-\"[multiverse](multiverse_(set_theory) "multiverse")\" set theorists
+"[multiverse](multiverse_(set_theory) "multiverse")" set theorists
 argue that usefulness should be the sole ultimate criterion in which
 axioms to customarily adopt. One school of thought leans on expanding
-the \"iterative\" concept of a set to produce a set-theoretic universe
+the "iterative" concept of a set to produce a set-theoretic universe
 with an interesting and complex but reasonably tractable structure by
 adopting forcing axioms; another school advocates for a tidier, less
-cluttered universe, perhaps focused on a \"core\" inner
+cluttered universe, perhaps focused on a "core" inner
 model.
 
 ## Criticisms
@@ -722,7 +722,7 @@ arithmetic") (as explored by the program of [reverse
 mathematics](reverse_mathematics "reverse mathematics")).  [Saunders
 Mac Lane](Saunders_Mac_Lane "Saunders Mac Lane") and [Solomon
 Feferman](Solomon_Feferman "Solomon Feferman") have both made this
-point. Some of \"mainstream mathematics\" (mathematics not directly
+point. Some of "mainstream mathematics" (mathematics not directly
 connected with axiomatic set theory) is beyond Peano arithmetic and
 second-order arithmetic, but still, all such mathematics can be
 carried out in ZC ([Zermelo set theory](Zermelo_set_theory "Zermelo
@@ -756,7 +756,7 @@ hypothesis](continuum_hypothesis "continuum hypothesis"), the
 [Whitehead problem](Whitehead_problem "Whitehead problem"), and the
 [normal Moore space conjecture](Moore_space_(topology) "normal Moore
 space conjecture").  Some of these conjectures are provable with the
-addition of axioms such as [Martin\'s axiom](Martin's_axiom "Martin's
+addition of axioms such as [Martin's axiom](Martin's_axiom "Martin's
 axiom") or [large cardinal axioms](large_cardinal_axiom "large
 cardinal axiom") to ZFC.  Some others are decided in ZF+AD where AD is
 the [axiom of determinacy](axiom_of_determinacy "axiom of
@@ -843,7 +843,7 @@ theories"):
   pages = {45--69},
   }
 
-@journal{Abian-LaMacchia1978,
+@article{Abian-LaMacchia1978,
   title = {On the Consistency and Independence of Some Set-Theoretical Axioms},
   author = {Abian, Alexander and LaMacchia, Samuel},
   journal = {Notre Dame Journal of Formal Logic},
@@ -852,4 +852,10 @@ theories"):
   pages = {155--58},
   }
 
+@book{Jech2003,
+  autor = {Jech, Thomas},
+  year = {2003},
+  title = {Set Theory: The Third Millennium Edition, Revised and Expanded},
+  publisher = {Springer},
+  }
 ```
